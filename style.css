@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+body {
+  position: relative;
+  background-color: black;
+  height: 100vh;
+}
+
+button {
+  background-color: #1F0C21;
+  color: white;
+  padding: 15px 32px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.container {
+  background-color: #FAEACF;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  border-radius: 20px;
+  padding: 40px;
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+}
+
+.semafaro {
+  background-color: black;
+  width: 100px;
+  padding: 10px 0 10px 0;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.panel {
+  background-color: #808080;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+.luz{
+  width: 50px;
+  height: 50px;
+  background-color: #3f3f3f;
+  margin: auto;
+  border: medium solid black;
+  border-radius: 50%;
+}
+.semluz {
+  background-color: #3f3f3f;
+}
+
+.vermelho {
+  background-color: red;
+}
+
+
+.amarelo {
+  background-color: yellow;
+}
+
+
+.verde {
+  background-color: green;
+}
