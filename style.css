@@ -17,6 +17,11 @@ button {
   margin-top: 20px;
 }
 
+button:hover {
+  background-color: #5a2460;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.532);
+}
+
 .container {
   background-color: #FAEACF;
   position: absolute;
@@ -48,7 +53,8 @@ button {
   flex-direction: column;
   row-gap: 20px;
 }
-.luz{
+
+.luz {
   width: 50px;
   height: 50px;
   background-color: #3f3f3f;
@@ -56,6 +62,7 @@ button {
   border: medium solid black;
   border-radius: 50%;
 }
+
 .semluz {
   background-color: #3f3f3f;
 }
